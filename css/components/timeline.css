@@ -1,0 +1,13 @@
+.timeline {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+
+.timeline > * > h4 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: white;
+}

@@ -1,0 +1,99 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Components */
+@import url("components/button.css");
+@import url("components/hero.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/card-wrapper.css");
+@import url("components/footer.css");
+@import url("components/set-margin-padding.css");
+@import url("components/timeline.css");
+
+:root {
+  --dark-red: #D90429;
+  --med-red: #EF233C;
+  --light-blue: #f2f2f2;
+  --med-blue: #dedfe1;
+  --dark-blue: #2B2D42;
+
+  /* Second scheme */
+
+  --dark: #040303;
+  --med-dark: #303030;
+  --dark-brown: #461111;
+  --brick: #A13333;
+  --orange: #B3541E;
+  --med-light: #dadada;
+
+
+}
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: var(--light-blue);
+}
+
+.body-bg-light {
+  background-color: var(--med-light);
+}
+
+/* h1, h2, h3, h4 {
+  font-family: Poppins;
+} */
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: var(--med-red);
+  margin: 4rem 0 2rem 0;
+  padding: 0 0 2rem 0;
+}
+
+h4 {
+  font-family: Meriweather, serif;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.inline-list > li > * {
+  display: inline-block;
+  margin: 1rem;
+  color: var(--med-red);
+}
+
+
+
+/* Custom design below! */

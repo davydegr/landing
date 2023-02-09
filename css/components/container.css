@@ -1,0 +1,9 @@
+.container {
+  width: 860px;
+  margin: 0 auto;
+}
+
+.container-sm {
+  width: 480px;
+  margin: 0 auto;
+}
